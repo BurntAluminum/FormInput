@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Input</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    Shadowrun Selectors
+    <select class="form-control" id="PlayerArchetype">
+      <option>Street Samurai</option>
+      <option>Decker</option>
+      <option>Rigger</option>
+      <option>Shaman</option>
+      <option>Mage</option>
+      <option>Physical Adept</option>
+    </select>
+    <div class="radio">
+      <label>
+        <input type="radio" name="sex" value="male" checked>
+        Male
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="sex" value="female">
+        Female
+      </label>
+    </div>
+    Non SR Input Selectors
+      <div class="form-group">
+        <label for="born">Date of Birth:</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+      <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+    </div>
+  </body>
+</html>
